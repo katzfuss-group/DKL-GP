@@ -1,0 +1,7 @@
+#!/bin/bash
+
+python3 -m pip install external/competing_methods
+python3 -m pip install external/incomplete_cholesky
+python3 -m pip install external/indexing
+python3 -m pip install external/maxmin_cpp
+python3 -m pip install viva/

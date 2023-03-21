@@ -1,0 +1,27 @@
+[build-system]
+requires = [
+    "setuptools>=65",
+    "wheel",
+    "pybind11>=2.6.1",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "VIVA"
+description = "Variational Inference using Vecchia Approximation"
+license = {text = "MIT License"}
+authors = [
+    {name = "Jian Cao", email = "jian.cao@tamu.edu"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy >= 1.24.2",
+    "scipy >= 1.10.1",
+    "pandas"
+]
+version = "1.0.0"
